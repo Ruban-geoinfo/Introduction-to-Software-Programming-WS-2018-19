@@ -1,6 +1,6 @@
 # Introduction-to-Software-Programming-WS-2018-19
 
-In the final project of the Java part of the course, you will be creating Shape objects and visualizing them in the graphic panel provided by Marcelo for the labs.
+In the final project of the Java part of the course, i have created a Shape objects and visualizing them in the graphic panel provided by Marcelo for the labs.
 
 For the project, you are required to collect data for 10 capital cities in Europe. For each city you should record the name, GPS coordinates (in decimal degrees), area (in sqr km), population, population density (number per sqr km), percentage of foreign residents in the population, GDP (in billion €) - in that order.
 
