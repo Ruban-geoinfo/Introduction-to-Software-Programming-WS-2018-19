@@ -1,18 +1,19 @@
-#Introduction to Software Programming – WS 2018/19
+Introduction to Software Programming – WS 2018/19
 Final Report
 University of Münster, Germany
 Institute for Geoinformatics, Heisenbergstraße 2, 48149 Münster, Germany
 Report submitted by: Rubankumar Moorthy (r_moor02@uni-muenster.de)
 
-##Abstract
+Abstract:
+
 The final project of java programming, were created the Shape objects and visualization fulfilled in the graphic panel provided by Marcelo for the labs. The implementation part, Europe capital cities information were collected from Wikipedia, European union, City population and other open service portal. The ten capital cities and details are stored in order name of the city, GPS coordinates (in decimal degrees), area (in sq.km), population, population density (number per sq.km), percentage of foreign residents in the population, GDP (in billion €) . City geographical information has plotted and visualised in the graphical panel. In this course, has introduced to the basics of software programming with emphasis on common data structures and algorithms often required in geospatial applications. The course covered the basics of programming using Java that has relevant to Geoinformatics.
 
 Keywords: Europe cities, Bounding box, Graphical panel, Scale, Buffer, Geoscience, Saturation, Translation.
 
-##1 Introduction
+1 Introduction
 The Final Java project completed as a part of the course “Introduction to Software Programming” under the guidance of Dr.Malumbo Chipofya and Marcelo. In this course, were to complete the objective of project that divided into four separate tasks.
 
-##2 Task 1
+2 Task 1
 In this task, has created a text file for 10 capital cities in Europe and data collected from Wikipedia, European Union portal. The capital cities in Europe which considered Amsterdam, Berlin, Brussels, London, Helsinki, Madrid, Oslo, Paris, Stockholm, Zurich.
 
 2.1 Task Description
@@ -20,7 +21,7 @@ The information of the each city has retrieved from https://europa.eu/european-u
 
  
 
-##3	 Task 2
+3	 Task 2
 
     In this task, to read the stored data as a text file into the application and used the StringInputReader class. Used the method that returns the file contents as an array of strings. For each line (i.e. String in your array) use string.split(",") to create a new array of Strings that is split across the commas (,). A city class has created with the appropriate attributes (variables) to model the city and the coordinates stored in a Point attribute inside the City class. The attributes are private and provide getter and setter methods with a program that reads the city data file, creates a City object for each city and iterates through the city objects printing their content one per line. Double.parseDouble() is used to converted the String value to double where necessary.
 
@@ -41,7 +42,7 @@ The information of the each city has retrieved from https://europa.eu/european-u
 3.1.3	Point Class
      In this class, to handle the point shape objects and represents the location two point, (i.e) point x and point y are used. The function of this point class includes Get, Set and Printing points of x and y. The Calculation of Distance between the two points and description of the Point derived from this class. While location function has called, that turn will run the point class.
 
-##4	Task 3
+4	Task 3
    In this task, created 1000 x 1000 window graphical panel for displaying cities information’s. Hereafter computed the bounding box of the coordinates of the cities. The data has displayed in a 900 x 900 area inside the window and created Bounding box for all the points. Used the scale of each coordinates will be centered the coordinates and applied the amount of translation for the centering of points. For the third task, existing classes has been updated and created a new classes such as SimplePanel, SimpleFrame, Shape, Rectangle, Polyline, Polygon, Label, DrawingContent, Circle. 
 
 4.1	Bounding Box
@@ -99,7 +100,7 @@ the bounding box center from the actual window center which was (500,500). xTran
      In this Class to handle, the circle shape objects, topLeftPoint, and diameter are in the private class. Commonly used get set method for thorough the task.
 
 
-##5	Task 4
+5	Task 4
 
      In this task, there were main class (ReadtheCities) and other 10 classes (Circle, City, DrawingContent, InputStringReader, Label, Point, Rectangle, Shape, SimpleFrame, SimplePanel) see figure.2 that fulfils the section of java-programming final task of the project. I have used the shape classes from the previous task to expresses the demographic data in the panel and eliminated polyline and polygon classes that are not used. 
 
@@ -111,16 +112,12 @@ Fig.2.Overview of Class Diagram
 
 
 
- 
 
-
-
-
-##6	Challenging Aspects
+6	Challenging Aspects
 
     In the beginning, was challenging to learn the basic facts and functions about this project. The previous class assignments much useful for understanding aspects and parameters. Furthermore, with help of Marcelo labs visualised the map into the virtual system. It took much time to adopt the concept of bounding box and window center while applying into the graphical panel. Because as per the task guidelines setup the bounding box and window center scale values caused the overlapping into the horizontal bar charts. Additionally, needed more attention and focus while the scaling and translation of the coordinates in the bounding box. Next difficult aspect was to display bar charts into the graphical panel, which considered GDP, City Population and Foreign resident’s percentage. However after the study of draw charts using the shape classes, that can be plotted in graphical panel.
 
 
-##7	Conclusion
+7	Conclusion
 
    In this Course, I learned the basic java programming based on previous assignments and above tasks. The four tasks much useful to understand the shape objects and the virtual system, which related to the geoinformation science. However, the cities has plotted with labels and buffer by satisfying all the conditions for the tasks. Moreover calculating normalization for the colour values of the circles, Rectangles for demographic data which much helpful to interpretation. Visual interpretation of cities information in virtual system easily to obtains the knowledge through map, that greatly understanding to the users.  
