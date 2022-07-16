@@ -1,6 +1,6 @@
 Introduction to Software Programming – WS 2018/19
 ==============
-***Westfälische Wilhelms-Universität Münster***, ***Institute of Transportation Systems, Deutsches Zentrum für Luft- und Raumfahrt (DLR),Braunschweig***
+***Westfälische Wilhelms-Universität Münster***, 
 
 **Author:** *Rubankumar Moorthy*
 
